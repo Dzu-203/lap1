@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+table{
+    text-align: center;
+    width: 90%;
+    min-height: 98vh;
+    border-spacing: 15px;
+}
+thead tr{
+    height: 100px;
+}
+tfoot tr{
+    height: 80px;
+}
+thead tr td{
+    border: 6px solid rgb(241, 139, 178);
+}
+td.s-left{
+    border: 6px solid blue;
+    width: 20%;
+}
+td.s-mid{
+    border: 6px solid red;
+    width: 40%;
+}
+td.s-right{
+    border: 6px solid yellow;
+    width: 20%;
+}
+tfoot td{
+    border: 6px solid rgb(12, 168, 51);
+}
